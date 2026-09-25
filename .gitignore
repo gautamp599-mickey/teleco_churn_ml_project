@@ -12,8 +12,11 @@ env/
 */.ipynb_checkpoints/*
 
 *.pkl
+!telco_churn_pipeline.pkl
 *.joblib
 *.csv
+!telco_churn.csv
+!model_scores.csv
 !data/sample_*.csv
 
 .DS_Store
